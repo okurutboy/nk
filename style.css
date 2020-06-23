@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #444444;
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.headertop {
+    padding: 20px;
+    width: 70%;
+    display: flex;
+    margin: auto;
+    display: flex;
+}
+
+.headertop li {
+    flex: 1;
+    text-align: center;
+    color: #444444;
+}
+
+.about {
+    background: url('images/dotted.jpg')   ;
+    background-size: contain;
+}
+
+.com ul {
+    display: block;
+    list-style-type: none;
+}
+
+.com ul li {
+    padding: 5px;
+    color: #000080;
+}
+
+.datainfo ul .active {
+    border-bottom: 7px solid #000080;
+    border-radius: 7px;
+}
+
+.ppl {
+    color: #000080;
+    font-weight: bold;
+}
+
+.searchtab {
+    padding-top: 10px;
+    display: flex;
+}
+
+.nav-link {
+    color: #444444 !important;
+    font-weight: bold;
+}
+
+.services {
+    padding-top: 30px;
+}
+
+.stab button {
+    height: 50px;
+}
+
+.stab {
+    flex: 1;
+}
+
+.fa-check-circle {
+    color: #006cff;
+}
+
+.fa-3x {
+    color: #006cff;
+    margin-bottom: 10px;
+}
+
+.bl {
+    font-weight: bold;
+    color: #006cff;
+}
+
+.cover {
+    height: 80vh;
+    background: url(assets/images/wall.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 10vh;
+}
+
+.desc {
+    width: 60%;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.nkbtn {
+    background: #ffd700;
+    height: 50px;
+    width: 200px;
+    margin-right: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.cleaningservice {
+    display: flex;
+}
+
+.sevo {
+    border: 1px solid lightgrey;
+    text-align: center;
+    border-radius: 10px;
+    height: 80%;
+}
+
+.sevo1 {
+    margin: px;
+    box-shadow: 1px 5px 5px 7px lightgrey;
+}
+
+.datahd {
+    padding: 10px;
+    width: 97%;
+    margin: auto;
+    border-bottom: 1px solid 
+#c3c3c3;
+}
+
+.best {
+    height: 80vh;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.prod {
+    width: 70%;
+    height: 400px;
+    margin: auto;
+}
+
+.spc {
+    margin-bottom: 40px;
+}
+
+.mid {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.blue {
+    background: blue;
+    height: 50px;
+}
+
+.yus {
+    height: 500px;
+    margin: auto;
+    width: 80%;
+}
+
+.us {
+    display: flex;
+}
+
+.dataus {
+    flex: 1;
+}
+
+.xus {
+    padding-top: 30px;
+}
+
+.about {
+    padding: 30px;
+}
+
+@media only screen and (max-width: 800px){
+    .desc {
+        width: 100%;
+    }
+
+    .sevo {
+        border: none;
+    }
+
+    .solutionm {
+        display: none;
+    }
+
+    .solution1 {
+        text-align: center;
+    }
+}
